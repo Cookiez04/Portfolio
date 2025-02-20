@@ -44,6 +44,30 @@ const TextContent = styled.div`
   }
 `;
 
+const ResumeButton = styled(motion.a)`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(45deg, ${({ theme }) => theme.accent}, ${({ theme }) => theme.accentSecondary});
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  svg {
+    font-size: 1.2rem;
+  }
+`;
+
 const SkillsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -324,6 +348,24 @@ const AboutSection = () => {
             Outside of coding, I'm a bit of a movie buff, always on the hunt for good music, and enjoy putting my thoughts into words.
             I'm also planning to make a blog soon, so stay tuned!
           </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+          >
+            <ResumeButton 
+              href="/resume/resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              Download Resume
+            </ResumeButton>
+          </motion.div>
         </TextContent>
         <SkillCube />
       </ContentWrapper>
