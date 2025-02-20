@@ -313,15 +313,16 @@ const AboutSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             I'm a creative web developer with a passion for building engaging digital experiences. 
-            My approach combines clean, minimalist design with powerful functionality.
+            My style mostly includes clean, minimalist design with powerful functionality.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Currently interning at UTeM, I've developed XAMPP-based applications and contributed to web development projects.
-            When I'm not coding, you'll find me exploring new movies, discovering music, or writing.
+            I just wrapped up my internship at UTeM, where I got my hands dirty with XAMPP applications and some cool web projects.
+            Outside of coding, I'm a bit of a movie buff, always on the hunt for good music, and enjoy putting my thoughts into words.
+            I'm also planning to make a blog soon, so stay tuned!
           </motion.p>
         </TextContent>
         <SkillCube />
