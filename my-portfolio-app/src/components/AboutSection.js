@@ -255,14 +255,14 @@ const AboutSection = () => {
   const timelineData = [
     {
       period: "2020 - 2022",
-      title: "High School",
+      title: "SMK Selandar",
       subtitle: "Computer Science",
       description: "Laid the foundation in computer science fundamentals"
     },
     {
       period: "Nov 2022 - Feb 2024",
-      title: "Diploma in Computer Science",
-      subtitle: "University",
+      title: "Universiti Teknologi MARA (UiTM)",
+      subtitle: "Diploma in Computer Science",
       description: "Deepened knowledge in programming and web development"
     },
     {
