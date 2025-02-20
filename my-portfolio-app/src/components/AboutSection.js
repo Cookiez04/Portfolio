@@ -198,7 +198,7 @@ const AboutSection = () => {
     {
       title: "Frontend",
       skills: [
-        "React & Next.js",
+        "React",
         "HTML5 & CSS3",
         "CSS & Styled Components",
         "Responsive Design",
