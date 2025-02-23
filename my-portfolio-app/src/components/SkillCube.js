@@ -487,7 +487,7 @@ const SkillCube = () => {
       >
         <FrontFace data-face="front">
           <h3>Frontend</h3>
-          <p>React • Next.js</p>
+          <p>React</p>
           <p>CSS • Styled Components</p>
         </FrontFace>
         <BackFace data-face="back">
