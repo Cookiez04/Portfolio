@@ -8,9 +8,6 @@ import kiezzfields3 from './assets/KiezzFields/Screenshot 2025-02-19 213925.png'
 import kiezztech1 from './assets/KiezzTech/Screenshot 2025-02-19 214022.png';
 import kiezztech2 from './assets/KiezzTech/Screenshot 2025-02-19 214137.png';
 import kiezztech3 from './assets/KiezzTech/Screenshot 2025-02-19 214217.png';
-import valentine1 from './assets/Valentine/Screenshot 2025-02-19 214344.png';
-import valentine2 from './assets/Valentine/Screenshot 2025-02-19 214501.png';
-import valentine3 from './assets/Valentine/Screenshot 2025-02-19 214545.png';
 
 const ProjectsContainer = styled(motion.div)`
   width: 100%;
@@ -548,14 +545,6 @@ const projectsData = [
       </IllustrationWrapper>
     ),
     link: "https://kiezz.vercel.app/"
-  },
-  {
-    title: "Valentine's Invitation",
-    description: "An interactive valentine's proposal website featuring password protection, animations, and virtual flowers. A personal project combining creativity with web development.",
-    type: "personal",
-    tags: ["interactive", "javascript"],
-    images: [valentine1, valentine2, valentine3],
-    link: "https://very-secret-invitations.vercel.app/"
   },
   {
     title: "Offer Letter Generation System",
